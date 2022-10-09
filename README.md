@@ -11,3 +11,10 @@ In order to collect the data, i used Beautifulsoup and requests libraries that a
 - Close
 - Adj Close
 - Volume
+
+## **2- Visualizing Apple Stock price:**
+I visualized the data using Tableau for the whole past year and i ended up having a dashboard that summarizes almost everything the data has to offer.
+Link for the dashboard : https://public.tableau.com/app/profile/ghazi.dhoaufli/viz/ApplePrices/Tableaudebord1
+
+## **3- Apple Stock price Forecasting:**
+In order to forecast the close prices, i used the Long Short Term Memory Network (LSTM) because it's better than RNN when it comes to capturing long-term dependencies and i ended up with 0.0016 validation loss which is a pretty good result.
